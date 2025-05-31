@@ -25,7 +25,7 @@ struct Card {
 
 fn help() {
     println!("usage:
-xml2db <xml_file>");
+xml2db <xml_file> <db_uri>");
 }
 
 fn parse_args() -> Result<(PathBuf, Uri),Error> {
